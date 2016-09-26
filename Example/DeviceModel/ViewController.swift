@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import DeviceModel
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        let deviceModelName: DeviceModel = DeviceModel()
+        print(deviceModelName.getDeviceModel())
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import DeviceModel
+//import DeviceModel
 
 class Tests: XCTestCase {
     

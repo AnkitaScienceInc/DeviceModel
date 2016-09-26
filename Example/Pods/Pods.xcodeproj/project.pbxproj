@@ -15,8 +15,8 @@
 		AF6F21EF2A5A25FDD117C92DDF73381A /* Pods-DeviceModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC266E30079F2B0E9FF12E5074E3DEB5 /* Pods-DeviceModel_Tests-dummy.m */; };
 		B13EFA66E0B72D342F7267BBA58A50F6 /* DeviceModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9A34A9270224214525F12502DE1B7 /* DeviceModel-dummy.m */; };
 		C5F087D25BF4DA8B0E198F550D1448DB /* DeviceModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8D77C903E7C7E91576C6E47A257BC6 /* DeviceModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6703EFB1D99580500886764 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6703EFA1D99580500886764 /* DeviceModel.swift */; };
 		FB388745E96685C89DAE93E6F7A10DDF /* Pods-DeviceModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 461663AB05D4091AD311F671245B5DC0 /* Pods-DeviceModel_Example-dummy.m */; };
-		FE3D7E8670A7D582D21A0573B44F1194 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FA1E81D3678DBCB0B80FE781DF854 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		6806CFFF7B50949BC7A178C10C49B703 /* Pods-DeviceModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceModel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		708D20B4E6AC857EB99C71213B82DC1E /* DeviceModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74382261894D0AC2421D5ADDEAE674CC /* Pods-DeviceModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		786FA1E81D3678DBCB0B80FE781DF854 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		7916E28D995C3FAFCF0403D76A823F71 /* Pods-DeviceModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceModel_Example-umbrella.h"; sourceTree = "<group>"; };
 		7DFAE6125769F26333041DB5AE98E028 /* Pods-DeviceModel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeviceModel_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -61,6 +60,7 @@
 		DA2473B19206FF300981BC018355E3F2 /* Pods-DeviceModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8A5B8D0FB637F22379F3F6EF2077167 /* Pods-DeviceModel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeviceModel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ED1AA56F4C9F465F525D15D893442DD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6703EFA1D99580500886764 /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		FC266E30079F2B0E9FF12E5074E3DEB5 /* Pods-DeviceModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceModel_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +182,7 @@
 		AC1C3FAD6FDEAE972B6DFCC7CCB0A0BA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				786FA1E81D3678DBCB0B80FE781DF854 /* ReplaceMe.swift */,
+				F6703EFA1D99580500886764 /* DeviceModel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B13EFA66E0B72D342F7267BBA58A50F6 /* DeviceModel-dummy.m in Sources */,
-				FE3D7E8670A7D582D21A0573B44F1194 /* ReplaceMe.swift in Sources */,
+				F6703EFB1D99580500886764 /* DeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4333844B21FC0DE132920E69774F181D /* Pods-DeviceModel_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -445,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7D809AAE2EABBDD360B0A9C5CD14252 /* DeviceModel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -475,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7D809AAE2EABBDD360B0A9C5CD14252 /* DeviceModel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -504,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1C86D5A615F81F9B9E9565D57CBCA87 /* Pods-DeviceModel_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -527,6 +531,7 @@
 				PRODUCT_NAME = Pods_DeviceModel_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -537,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74382261894D0AC2421D5ADDEAE674CC /* Pods-DeviceModel_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -612,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E6B3DE2A7AC6F28B4DA275E205D210C /* Pods-DeviceModel_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
