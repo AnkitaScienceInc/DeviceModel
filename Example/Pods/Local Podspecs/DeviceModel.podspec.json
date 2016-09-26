@@ -1,0 +1,22 @@
+{
+  "name": "DeviceModel",
+  "version": "0.1.0",
+  "summary": "A short description of DeviceModel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DeviceModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ankita Kalangutkar": "ankita.kalangutkar@science-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DeviceModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DeviceModel/Classes/**/*"
+}
