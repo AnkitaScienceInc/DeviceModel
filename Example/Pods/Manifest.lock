@@ -1,5 +1,5 @@
 PODS:
-  - DeviceModel (0.1.0)
+  - DeviceModel (0.1.1)
 
 DEPENDENCIES:
   - DeviceModel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DeviceModel: 4aa4a75d04068385229eb047c3b07c2b5642e4a2
+  DeviceModel: c5807f31077fab4fc1d98f3c63fd369021fc77db
 
 PODFILE CHECKSUM: 5d0f37887a9ec9a63b4031d68e5db8942e3a46bb
 

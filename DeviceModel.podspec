@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'DeviceModel'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = 'Gives the name of device connected'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/AnkitaScienceInc/HardwareDeviceModel.git'
+s.homepage         = 'https://github.com/AnkitaScienceInc/DeviceModel.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Ankita Kalangutkar' => 'ankita.kalangutkar@science-inc.com' }
-s.source           = { :git => 'https://github.com/AnkitaScienceInc/HardwareDeviceModel.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/AnkitaScienceInc/DeviceModel.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 
